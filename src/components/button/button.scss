@@ -1,0 +1,14 @@
+.custom-buttom {
+  padding: 15px;
+  background-color: #ff4454;
+  color: #ffffff;
+  &:hover {
+    background-color: #c43d49;
+  }
+
+  &:disabled {
+    cursor: default;
+    background-color: #c43d49;
+    color: #c5c5c5;
+  }
+}

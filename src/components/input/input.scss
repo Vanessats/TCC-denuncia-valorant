@@ -1,0 +1,35 @@
+.customInput input {
+  border: 0;
+  text-align: center;
+  border-bottom: 3px solid white;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  font-size: 2vw;
+  width: 90%;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.customInput input:focus {
+  outline: none;
+}
+
+.customInput .large {
+  width: 10vw;
+}
+
+.customInput input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(255, 255, 255, 0.533);
+  opacity: 1; /* Firefox */
+}
+
+.customInput input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+.customInput input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
